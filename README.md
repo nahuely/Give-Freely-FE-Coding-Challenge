@@ -36,6 +36,8 @@ API Spec:
 
 3. You are welcome to design each component as you like, please make sure each section looks polished. 
 
+4. This challenge should take you 3-4 hours. If you hit the end of that time and have more to add, please include a note with the items you were unable to get to
+
 
 #### Data Access:
 *URL:* `https://api.jsonbin.io/v3/b/64678cf09d312622a36121b8`
@@ -43,6 +45,9 @@ API Spec:
 *Header:* X-Access-Key
 
 *Value:* `$2b$10$QhrtefF/jKDbKgauF5trL.SK6VAk69VSIcHMhGaEs8ZViK.xBh0Om`
+
+## Submission
+Please fork this repository and send your forked repo once completed.
 
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
