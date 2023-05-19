@@ -41,6 +41,7 @@ API Spec:
 *URL:* `https://api.jsonbin.io/v3/b/64678cf09d312622a36121b8`
 ##### Authentication:
 *Header:* X-Access-Key
+
 *Value:* `$2b$10$QhrtefF/jKDbKgauF5trL.SK6VAk69VSIcHMhGaEs8ZViK.xBh0Om`
 
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
