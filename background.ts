@@ -41,6 +41,14 @@ chrome.runtime.onMessage.addListener(async function (
       return acc
     }, {})
     senderResponse(websitesMap)
+  } else if (message.type === "getRandomAdvertiser") {
+    const randomWebsite = websites[getRandomInt(websites.length)]
+    const randomMessage =
+      randomWebsite.messages[getRandomInt(randomWebsite.messages.length)]
+    senderResponse({
+      randomMessage,
+      randomWebsite: randomWebsite.name
+    })
   }
 })
 
